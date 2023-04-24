@@ -1,0 +1,675 @@
+
+
+    body {
+        padding: 0%;
+        margin: 0%;
+        color: white;
+        background-color: #161616;
+        font-family: 'Josefin Sans', sans-serif;
+     
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        width:30%;
+       
+    }
+    
+
+    nav {
+        width: 75%;
+        display: flex;
+        justify-content: end;
+        background-color: #3d3d3d;
+        border-radius: 5px;
+        
+    }
+    
+    header {
+        z-index: 1;
+        height: 3rem;
+        margin-top: 1%;
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top:0px;
+        
+    }
+    
+    
+    
+    html {
+        scroll-behavior: smooth;
+    
+    }
+    
+    li {
+        list-style-type: none;
+    
+    
+    }
+    
+    h1{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 6rem;
+        margin: 0;
+        padding-top: 2%;
+    }
+    
+    a {
+        color: black;
+        padding: 0.5%;
+        text-decoration: none;
+    
+    }
+    .centre{
+        display: flex;
+        justify-content: center;
+    }
+    .presentation{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #hidd{
+    position: fixed;
+    top: 10%;
+    background-color: #222222d8;
+    width: 80%;
+    height: 70%;
+    padding: 2%;
+    }
+    
+    #hid{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    #presen{
+    text-align: center;
+    
+    }
+    
+    .hidden{
+        display: none;
+    }
+    
+    .name{
+        align-self: center;
+        font-size: 3rem;
+        margin-top: 2%;
+    }
+    
+    #desc{
+        display: block;
+        width: 60%;
+        line-height: 150%;
+        text-align: center;
+    }
+    
+    .conn{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 8%;
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    .typ {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    
+    
+    
+    main {
+        margin-top: 3%;
+        z-index: 2;
+        
+    }
+    
+    
+    .logo{
+    width: 10%;
+    
+    }
+    
+    .test{
+        width: 25%;
+        text-align: center;
+        margin: 2% auto;
+    }
+    #petit{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .petit-carrousel{
+        
+        width: 10%;
+        margin: 1%;
+    }
+    .profil{
+        border-radius: 30px;
+        max-height: 30%;
+       max-width: 50%;
+        margin-bottom: 3%;
+    
+    }
+    
+    #close{
+        position:absolute;
+        right: 2%;
+        background-color: #3d3d3d;
+        color: white;
+        border: #3d3d3d;
+        padding: 0.5%;
+    }
+    #prese{
+        width: 75%;
+       
+    }
+    
+    #connaissance{
+        height: 100%;
+        width: auto;
+    }
+    
+    #contact{
+        text-align: center;
+       margin-bottom: 5%;
+    }
+    
+    #contact > ul{
+        padding: 0;
+    }
+    
+    .lien {
+       width: 30%;
+       color: white;
+    }
+    
+    .marg{
+        padding: 5%;
+        line-height: 150%;
+    }
+    
+    
+    .image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    }
+    
+    .fakeButton {
+        color: black;
+        padding: 0.75em;
+        font-size: 1rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+           
+       
+       }
+       
+     
+    
+    #project{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    #project-container{
+        width: 75%;
+    }
+    
+    #t{
+        display: block;
+    text-align: center;
+    }
+    
+    .carde {
+        width: 40%;
+        height: 20rem;
+        transition: all 0.2s;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .carde-inner {
+    
+        height: inherit;
+        background: rgba(255, 255, 255, .05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+        display: flex;
+    }
+    
+    #logoss{
+        display: none;
+    }
+   
+       #cv{
+        color: black;
+        padding: 0.75em;
+        font-size: 1rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+       }
+    
+    .carde-inner > div{
+        width: 50%;
+        align-self: center;
+       text-align :center ;
+    }
+    
+    .projetType{
+    width: 100%;
+    
+    }
+    
+    .carde:hover {
+        transform: scale(1.04) rotate(1deg); 
+    }
+    
+    
+    h2{
+        text-align: left;
+        font-size: 2.5rem;
+    }
+    
+    
+    @keyframes move-up6 {
+        to {
+            transform: translateY(-10px);
+        }
+    }
+    
+    @keyframes move-down1 {
+        to {
+            transform: translateY(10px);
+        }
+    }
+    
+
+
+@media screen and (max-width: 1824px){
+    .image{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        }
+
+        h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 3rem;
+            margin: 0;
+            padding-top: 5%;
+        }
+        h2{
+            text-align: left;
+            font-size: 2rem;
+        }
+        
+        main{
+            margin-top: 1%;
+        }
+
+        #petit{
+            display: flex;
+            justify-content: space-evenly;
+            height: 25%;
+            
+        }
+
+        .name{
+            font-size: 2rem;
+            margin: 1%;
+        }
+        .petit-carrousel{
+        
+            width: 10%;
+            margin: 1%;
+            height: 45%;
+        }
+
+        .fakeButton {
+            color: black;
+            padding: 0.7em;
+            font-size: 1rem;
+            border-radius: 0.5em;
+            background: #dadada;
+            border: 1px solid #dadada;
+           
+           
+           }
+           
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1550px) {
+    #petit{
+        display: flex;
+        justify-content: space-evenly;
+        height: 25%;
+       
+    }
+
+    .petit-carrousel{
+    
+        width: 10%;
+        margin: 1%;
+        height: 45%;
+    }
+
+   
+       .fakeButton {
+        color: black;
+        padding: 0.7em;
+        font-size: 0.8rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+           
+       
+       }
+     
+
+       
+       #cv{
+        color: black;
+        padding: 0.7em;
+        font-size: 0.8rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+       }
+}
+
+@media screen and (max-width: 1200px){
+    .marg{
+        font-size: 0.8rem;
+        padding:3%;
+    }
+    #petit{
+        display: flex;
+        justify-content: space-evenly;
+        height: 20%;
+        margin-top:3%;
+    }
+    
+}
+
+@media only screen and (min-width : 980px) and (max-width : 1200px) {
+   
+       .fakeButton {
+        color: black;
+        padding: 0.5em;
+        font-size: 0.7rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+           
+       
+       }
+       
+
+     
+       #cv{
+        color: black;
+        padding: 0.7em;
+        font-size: 0.8rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+       }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 980px) {
+  
+       .fakeButton {
+        color: black;
+        padding: 0.3em;
+        font-size: 0.58rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+       }
+      
+
+       #cv{
+        color: black;
+        padding: 0.7em;
+        font-size: 0.6rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+        
+       }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+    .image{
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        }
+        #petit{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            height: 20%;
+            margin-top:20%;
+        }
+
+        .petit-carrousel{
+    
+            width: 20%;
+            margin: 1%;
+            height: 45%;
+        }
+    li{
+        font-size: 0.8rem;
+    }
+    body{
+        font-size: 0.8rem;
+    }
+   
+
+    h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        margin: 0;
+        padding-top: 1%;
+    }
+
+    h2{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .name{
+        font-size: 2rem;
+    }
+
+    #contact {
+        text-align: center;
+        margin-bottom: 5%;
+      }
+}
+
+@media only screen and (min-width : 320px) and (max-width :768px) {
+
+    #logoss{
+        display: flex;
+        align-items: center;
+    }
+
+    #word{
+        display: none;
+    }
+
+    h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 0;
+        padding-top: 12%;
+    }
+    #petit{
+        display: flex;
+        flex-direction: column;
+
+        height: 90%;
+        margin-top:10%;
+        overflow: scroll;
+    }
+    #presen{
+        display: none;
+    }
+    #hidd{
+        height: 85%;
+    }
+    .petit-carrousel{
+        width: 85%;
+        height: 4rem;
+    }
+    h2{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    .profil{
+        border-radius: 30px;
+
+       max-width: 100%;
+        margin-bottom: 3%;
+    
+    }
+    
+       .fakeButton {
+        color: black;
+        padding: 0.5em;
+        font-size: 0.8rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+       }
+  
+
+       
+
+       
+       #cv{
+        color: black;
+        padding: 0.5em;
+        font-size: 0.8rem;
+        border-radius: 0.5em;
+        background: #dadada;
+        border: 1px solid #dadada;
+       }
+    #voir{
+        display: none;
+    }
+    body{
+        font-size: 0.8rem;
+    }
+    .name{
+        font-size: 1.3rem;
+       
+    }
+    .test {
+        width: 30%;
+        text-align: center;
+        margin: 2% auto;
+      }
+    #project{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #desc {
+        display: block;
+        width: 80%;
+        text-align: center;
+        line-height: 120%;
+      }
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+      }
+    #contact {
+        text-align: center;
+        height: 20vh;
+        margin-bottom: 5%;
+    }      
+    .typ{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+
+        .carde {
+            width: 100%;
+            height: 15rem;
+            transition: all 0.2s;
+            position: relative;
+            cursor: pointer;
+            margin: 2% 0px;
+        }
+        
+        .carde-inner {
+            height: inherit;
+            background: rgba(255, 255, 255, .05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(10px);
+            border-radius: 8px;
+            display: flex;
+        }
+
+        header {
+            z-index: 1;
+            height: 3rem;
+            margin-top:5%;
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0px;
+          }
+
+          .logo{
+            width: 20%;
+            
+            }
+
+            
+    .marg {
+        display: block;
+        width: 80%;
+        text-align: center;
+        line-height: 120%;
+      }
+ } 
