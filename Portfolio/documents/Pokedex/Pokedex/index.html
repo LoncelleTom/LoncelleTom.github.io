@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <script defer src="main.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<a href="../../../index.html" class="back"><i style="font-size:24px" class="fa">&#xf104;</i></a>
+<body>
+    <div id="titre">
+        <h1>Pokedex</h1>
+
+    </div>
+    <nav>
+        <button id="home">Accueil</button>
+        <button id="alphabet">Alphabétique</button>
+        <input id="search" type="text" placeholder="rechercher">
+
+        <label for="gene">Génération
+        <select name="Génération" id="gene" >
+            <option value="0">Aucune</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+    </label>
+    <label for="type">Type
+        <select name="Type" id="type" >
+            <option value="-1">Aucune</option>
+        </select>
+    </label>
+    </nav>
+
+
+    <div id="pokedex">
+        <div class="cent">
+            <svg viewBox="25 25 50 50">
+                <circle r="20" cy="50" cx="50"></circle>
+            </svg>
+        </div>
+    </div>
+
+    <div id="hidden">
+        <button id="buthid">X</button>
+       <div >
+           <h2 id="nom"></h2>
+           <img id="im" src="" class="img">
+       </div>
+       <div>
+            <ul>
+
+                <li id="hp">Hp : </li>
+                <li id="attack">Attaque :</li>
+                <li id="def">Défense :</li>
+                <li id="speed">Speed :</li>
+                <li id="gen">Génération :</li>
+            </ul>
+            <ul  id="po">
+
+            </ul>
+       </div>
+
+    </div>
+</body>
+
+</html>

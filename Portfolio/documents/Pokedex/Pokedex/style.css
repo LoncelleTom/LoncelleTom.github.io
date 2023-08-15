@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  border: 1px solid black;
+  padding: 0.5%;
+  background-color: #161616;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+
+  display: none;
+  }
+  
+.back:hover{
+  color:gold ;
+}
+#hidden{
+  display: none;
+  position: fixed;
+  top:0px;
+  height: 100vh;
+  width:  100%;
+  background-color: rgba(0, 0, 0, 0.856);
+  color: white;
+}
+
+#pokedex{
+        display: grid;
+        margin:1%;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 10px;
+        align-self: center;
+}
+
+.carte{
+    border: 1px solid black;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+
+#im{
+  width: 25%;
+}
+
+svg {
+  width: 15vw;
+  transform-origin: center;
+  animation: rotate4 2s linear infinite;
+  position: absolute;
+  
+ }
+ 
+ circle {
+  fill: none;
+  stroke: hsl(214, 97%, 59%);
+  stroke-width: 2;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash4 1.5s ease-in-out infinite;
+ }
+ 
+ .cent{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+ }
+
+ @keyframes rotate4 {
+  100% {
+   transform: rotate(360deg);
+  }
+ }
+ 
+ @keyframes dash4 {
+  0% {
+   stroke-dasharray: 1, 200;
+   stroke-dashoffset: 0;
+  }
+ 
+  50% {
+   stroke-dasharray: 90, 200;
+   stroke-dashoffset: -35px;
+  }
+ 
+  100% {
+   stroke-dashoffset: -125px;
+  }
+ }
+ 
