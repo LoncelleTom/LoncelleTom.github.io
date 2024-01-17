@@ -1,2 +1,2 @@
 # Loncelle Tom
-Portfolio : http://tomloncelle.me/Portfolio/
+http://tomloncelle.me/Portfolio/
