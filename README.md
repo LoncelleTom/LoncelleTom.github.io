@@ -1,2 +1,2 @@
 # Loncelle Tom
-https://spikythespike.github.io/LoncelleTom.github.io/Portfolio/
+https://loncelletom.github.io/Portfolio/
